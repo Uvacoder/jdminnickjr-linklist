@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "GT Super Display";
+    src: url(fonts/gt-super/GT-Super-Display-Light.woff2) format("woff2"),
+      url(fonts/gt-super/GT-Super-Display-Light.woff) format("woff"),
+      url(fonts/gt-super/GT-Super-Display-Light.ttf) format("truetype");
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+
+  body {
+      position: relative;
+      background-color: black;
+      overflow-x: hidden;
+  }
+
+  h1, h2 {
+      font-family: "Pirata One";
+      color: white;
+      text-align: center;
+  }
+
+  h1 {
+      text-transform: uppercase;
+      font-size: 4rem;
+      margin-top: 4rem;
+      letter-spacing: .3rem;
+      margin-bottom: 1rem;
+  }
+  
+  h2 {
+      font-size: 1.5rem;
+      border-bottom: solid white 3px;
+      white-space: nowrap;
+      letter-spacing: .1rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;;
+  }
+
+
+  
+.circles {
+    position: absolute;
+    z-index: -1;
+    background: black;
+    max-height: calc(100% + 15rem);
+    width: calc(100% + 15rem);
+    top: -1rem;
+    right: -7rem;
+  
+}
+
+#outer-ring {
+    -webkit-animation: rotation1 12s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes rotation1 {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+
+#middle-ring {
+    -webkit-animation: rotation2 12s infinite linear;
+    transform-origin:center;
+}
+
+@keyframes rotation2 {
+    from {
+            transform: 
+            rotate(0deg)
+            translateX(45px) translateY(45px);
+            
+    }
+    to {
+            transform: rotate(-359deg)
+            translateX(45px) translateY(45px);
+    }
+}
+
+#inner-ring {
+    animation: rotation3 8s infinite linear;
+
+}
+
+@keyframes rotation3 {
+    from {
+            transform: rotate(0deg) 
+            translateX(117px) translateY(117px);
+    }
+    to {
+            transform: rotate(359deg)
+            translateX(117px) translateY(117px);
+    }
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+li {
+    justify-self: center;
+}
+
+a {
+    text-decoration: none;
+    align-self: center;
+    font-family: "GT Super Display";
+    text-transform: uppercase;
+    color: white;
+    background: transparent;
+    min-width: 15rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: solid white 3px;
+    opacity: .7;
+    transition: .3s ease-in-out;
+    padding: 1rem 3rem;
+}
+
+a:hover {
+    transform: scale(120%);
+    color: black;
+    letter-spacing: .4rem;
+    background: white;
+    opacity: 1;
+}
