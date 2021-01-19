@@ -10,7 +10,9 @@
   *:after {
     box-sizing: border-box;
   }
-
+html {
+    overflow-x: hidden;
+}
   body {
       position: relative;
       background-color: black;
@@ -28,16 +30,18 @@
       font-size: 4rem;
       margin-top: 4rem;
       letter-spacing: .3rem;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
   }
   
   h2 {
-      font-size: 1.5rem;
+      text-align: center;
+      font-size: 1rem;
       border-bottom: solid white 3px;
       white-space: nowrap;
       letter-spacing: .1rem;
-      margin-bottom: 2rem;
-      padding-bottom: 1rem;;
+      padding-bottom: 1rem;
+      width: 18rem;
+      margin: 0 auto;
   }
 
 
@@ -48,8 +52,8 @@
     background: black;
     max-height: calc(100% + 15rem);
     width: calc(100% + 15rem);
-    top: -1rem;
-    right: -7rem;
+    top: 2rem;
+    right: -8.5rem;
   
 }
 
@@ -103,10 +107,11 @@
 
 ul {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 15rem;
     grid-gap: 3rem;
     justify-content: center;
     margin-bottom: 1rem;
+    margin-top: 3rem;
 }
 
 li {
@@ -115,18 +120,19 @@ li {
 
 a {
     text-decoration: none;
-    align-self: center;
+    justify-self: center;
     font-family: "GT Super Display";
     text-transform: uppercase;
     color: white;
     background: transparent;
-    min-width: 15rem;
-    height: 3rem;
+    width: 15rem;
+    height: 2rem;
     font-size: 1.5rem;
     border: solid white 3px;
     opacity: .7;
     transition: .3s ease-in-out;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
+    white-space: nowrap;
 }
 
 a:hover {
