@@ -67,7 +67,7 @@ html {
     max-height: calc(100% + 15rem);
     width: calc(100% + 15rem);
     top: 2rem;
-    right: -8.5rem;
+    right: -8rem;
   
 }
 
@@ -127,8 +127,9 @@ ul {
     grid-template-columns: 15rem;
     grid-gap: 2rem;
     justify-content: center;
+    justify-self: center;
     margin-top: 3rem;
-    left: -1rem;
+    left: -2rem;
     right: 0;
     
 }
