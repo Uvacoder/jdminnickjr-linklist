@@ -2,7 +2,7 @@
 
 # :candle: JD Minnick | Link List :candle:
 
-Amidst the abundance of Social Media linking pages ive seen I have found them in need of a little :dizzy: spice :dizzy:. 
+Amidst the abundance of Social Media linking pages I've seen I have found them in need of a little :dizzy: spice :dizzy:. 
 Feel free to [contact me](jdminnickjr@gmail.com) for any questions, concerns, or comments associated with the page.
 
 ## :balance_scale: Site Components :balance_scale:
