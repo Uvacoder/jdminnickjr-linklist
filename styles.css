@@ -67,7 +67,7 @@ html {
 }
 
 #outer-ring {
-    animation: rotation1 12s infinite linear;
+    animation: rotation1 25s infinite linear;
     transform-origin: center;
 }
 
@@ -81,7 +81,7 @@ html {
 }
 
 #middle-ring {
-    animation: rotation2 12s infinite linear;
+    animation: rotation2 25s infinite linear;
     transform-origin:center;
 }
 
@@ -99,7 +99,7 @@ html {
 }
 
 #inner-ring {
-    animation: rotation3 8s infinite linear;
+    animation: rotation3 10s infinite linear;
 
 }
 
